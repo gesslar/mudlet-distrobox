@@ -1,5 +1,6 @@
 {
   "name": "mudlet-distrobox",
+  "description": "Dockerfile for https://hub.docker.com/r/gesslardev/mudlet-distrobox",
   "author": {
     "name": "gesslar"
   },
