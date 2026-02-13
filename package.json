@@ -1,0 +1,12 @@
+{
+  "name": "mudlet-distrobox",
+  "author": {
+    "name": "gesslar"
+  },
+  "version": "4.20.1",
+  "scripts": {
+    "build": "docker build -t docker.io/gesslardev/mudlet-distrobox:4.20.1 .",
+    "build:clean": "docker build -t docker.io/gesslardev/mudlet-distrobox:4.20.1 . --no-cache",
+    "publish": "docker tag docker.io/gesslardev/mudlet-distrobox:4.20.1 docker.io/gesslardev/mudlet-distrobox:latest && docker push docker.io/gesslardev/mudlet-distrobox:4.20.1"
+  }
+}
